@@ -85,7 +85,7 @@ h1 {
 
 	
 	h1 {
-		font-size: 180%;
+		font-size: 170%;
 	}
 	.coming {
 	padding-left: 10px;
@@ -107,9 +107,15 @@ background-image: url(assets/fondo%20pagina%20mobile-01.jpg);
 
 	}
 	.boton{
-		width: 150px;
-		height: 150px;
+		width: 250px;
+		height: 250px;
 		background-size: 50% 50%;
-		
+		top: 50%;
+		left: 20%;
 	}
+		.boton:hover{
+	background-size: 60% 60%;
+	background-position: center;
+	transform:rotate(-30deg);
+	animation: desaprecer .3s;$
 }
