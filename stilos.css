@@ -1,0 +1,115 @@
+body{
+	color: darkgrey;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	width: 500px;
+}
+.contenedor{
+	max-width: 1000px;
+	margin: 0 auto;
+	position: absolute;
+	width: 50%;
+	align-items: center;
+	left: 25%;
+	top: 20%;
+}
+.boton{
+	width: 250px;
+	height: 250px;
+	background-image: url(assets/19047790_10212014937756073_944516033_n.png);
+	background-size: 50% 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	z-index: 2;
+	transition:background-size .6s,transform .3s;
+	transition-timing-function:ease-in;
+	top: 55%;
+	left: 37%;
+	overflow:inherit;
+}
+.boton:hover{
+	background-size: 100% 100%;
+	background-position: center;
+	transform:rotate(-30deg);
+	animation: desaprecer .3s;$
+}
+.Fondo{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	position: absolute;
+	z-index: 0;
+	background-image:url(assets/fondo%20pagina-01.jpg);	
+	
+	
+}
+.fondoborroso{
+	Background-image: url(assets/fondo%20pagina-%20borroso.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	margin: 0px;
+	z-index: 1;
+
+}
+
+.main-section{
+	position: absolute;
+	z-index: 10;
+	display: flex;
+	
+}
+
+h1 {
+	font-family: fuente1;
+	font-size: 700%;
+	margin: 0;
+	display: flex;
+	color: white;
+}
+.coming {
+	list-style: none;
+	padding-left: 22px;
+}
+.message {
+	padding-left: 22px;
+}
+
+@media screen 
+  and (device-width: 320px) 
+	and (device-height: 640px) {
+
+	
+	h1 {
+		font-size: 180%;
+	}
+	.coming {
+	padding-left: 10px;
+	}
+.message {
+	padding-left: 10px;
+}
+.Fondo {
+
+background-image: url(assets/fondo%20pagina%20mobile-01.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+}
+	.fondoborroso{
+		background-image: url(assets/fondo%20pagina%20mobile-borroso.jpg);
+		background-repeat: no-repeat;
+			background-size: 100% 100%;
+
+	}
+	.boton{
+		width: 150px;
+		height: 150px;
+		background-size: 50% 50%;
+		
+	}
+}
