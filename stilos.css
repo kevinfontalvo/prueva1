@@ -80,8 +80,8 @@ h1 {
 }
 
 @media screen 
-  and (device-width: 320px) 
-	and (device-height: 640px) {
+  and (device-width: 800px) 
+ {
 
 	
 	h1 {
