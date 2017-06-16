@@ -111,7 +111,7 @@ background-image: url(assets/fondo%20pagina%20mobile-01.jpg);
 		height: 300px;
 		background-size: 50% 50%;
 		top: 50%;
-		left: 15%;
+		left: 1%;
 	}
 		.boton:hover{
 	background-size: 80% 80%;
